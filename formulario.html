@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h2>Formulario de empleo</h2>
+
+        <label for="">Nombre y apellido: </label>
+        <input type="text" id="NombreApellido" name="nombreapellido" placeholder="Ej: Shaila Jimenez" required>
+        
+        <br><br>
+
+        <label for="">Correo Electrónico: </label>
+        <input type="text" id="Correo" name="Correo" placeholder="Ej: correo@gmail.com" required>
+    </form>
+    <br>
+    <form action="">
+        <label for="fecha">fecha disponibilidad: </label>
+        <input type="date" id="disponibilidad" name="fecha_dis">
+        <br><br>
+        <label for="Estudio">Nivel de estudio: </label>
+        <select name="nivel estudio" id="nivel estudio">
+        <option value="">--SELECCIONE UNA OPCION--</option>
+            <option value="PRI">Primaria</option>
+            <option value="PRICOM">Primaria Completa</option>
+            <option value="BACH">Bachillerato</option>
+            <option value="BACHCOM">Bachillerato completo</option>
+            <br><br>
+        </select>
+        <br><br>
+        <label for="Experiencia">Años de experiencia: </label>
+        <input type="number" id="Experiencia" name="Experiencia" min="0" max="50">    
+        <br><br>
+        <label for="Lenguajes">Lenguajes de Programación: </label>
+        <input type="checkbox" id="lenguajes" name="lenguajes" required>
+        <label for="lenguajes">Python</label>
+        <input type="checkbox" id="lenguajes" name="lenguajes" required>
+        <label for="lenguajes">Java</label>
+        <input type="checkbox" id="lenguajes" name="lenguajes" required>
+        <label for="lenguajes">JavaScript</label>
+        <br><br>
+        <label for="Carta">Carta de presentación: </label>
+        <br>
+        <textarea name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe aquí..."></textarea>
+        <br><br>
+        <button type="submit">Enviar Formulario</button>
+
+
+    </form>
+</body>
+</html>
